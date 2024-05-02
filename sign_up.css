@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: url(rbc.jpg);
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+}
+body{
+    background-color:  #00000045;  
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+   padding: 50px;
+    /* background-color: rgba(13, 6, 6, 0.7); */
+}
+#sign{
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+}
+
+
+.form{
+    padding: 30px 50px 30px 50px;
+    background-color: rgba(13, 6, 6, 0.7);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    /* width: 200px; */
+}
+.form label{
+    font-size:18px;
+    color: white;
+}
+#username,#email,#password,#conpassword,#fname,#lname,#age,#weight,#allergy{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.1px solid rgb(255, 255, 255);
+    font-size: 15px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+#button{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 0, 0, 0.616);
+    cursor:pointer;
+}
+#button:hover{
+    background-color:white;
+    color: darkred;
+}
+#button:active {
+    background-color: rgba(255, 0, 0, 0.763);
+    border-color: #ffffff;
+}
+#blood{
+    padding: 8px 70px;
+    padding-left: 10px;
+    padding-right: 210px;
+    border-radius: 5px;
+    border: 0.1px solid rgb(255, 255, 255);
+    font-size: 15px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+#blood option{
+    color: black;
+    background-color: white;
+}
+.errorp{
+    /* align-self: center; */
+    color:red;
+    font-size: 18px;
+    
+}

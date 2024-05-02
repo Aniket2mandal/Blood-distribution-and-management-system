@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    
+  }
+      /* Style for custom scrollbar (webkit browsers) */
+      body::-webkit-scrollbar {
+        width: 0.1em;
+      }
+  
+      body::-webkit-scrollbar-thumb {
+        background-color:gold; /* You can set the color to match your background */
+      }
+      nav {
+        background-color:#a61111;;
+        padding: 0px;
+        padding-bottom: 1.6px;
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin-left: auto; 
+        margin-right: 10%;
+  
+        
+      }
+  
+      .dropdown {
+        position: relative;
+      }
+  
+      .dropdown button {
+        background-color:#8c0000;;
+        color: #ffffff;
+        padding: 25px;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+      }
+      .dropdown button:hover{
+          background-color: #740000;;
+      }
+  
+      .dropdown-data {
+        display: none;
+        position: absolute;
+        background-color: #740000;
+        min-width:250px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+  
+      .dropdown:hover .dropdown-data{
+        display: block;
+      }
+  
+      .dropdown-data a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+  
+      .dropdown-data a:hover {
+        background-color:rgb(163, 30, 30);
+        text-decoration: underline;
+      }
+      .body1 h1{
+         color: white;
+         background-color: #8c0000;;
+         margin-top: -0.1%;
+         padding: 80px;
+         text-align: center;
+         border-bottom-left-radius: 50% 50px;
+         border-bottom-right-radius: 50% 50px;
+         padding-bottom: 35px;
+      }
+      .info{
+        background-color:transparent;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        padding: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
+        /* border: 0.5px solid darkred; */
+        background-color:transparent;
+      }
+      .info1{
+        background-color: #fefefe;
+        padding: 10px;
+        margin-right: 5%;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        border: 2px solid rgba(255, 0, 0, 0.053);
+        border-radius: 2px;
+      }
+      .info2{
+        background-color:  #fefefe;
+        padding: 10px;
+        margin-right: 5%;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        border: 2px solid rgba(255, 0, 0, 0.053);
+        border-radius: 2px;
+      }
+      .info3{
+        background-color: #fefefe;
+        padding: 10px;
+        margin-right: 5%;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        border: 2px solid rgba(255, 0, 0, 0.053);
+        border-radius: 2px;
+      }
+  
+      .content {
+    padding: 200px; 
+  
+  }
+      footer{
+        display: grid;
+        grid-template-columns: 15% 60% 0%;
+        padding: 80px;
+        /* bottom: 20px; */
+        width: 89.5%;
+        /* position: absolute; */
+        background-color: rgb(237, 235, 235);
+        /* height: 2vh; */
+        padding-top: 15px;
+        color: black;
+        margin-top: auto;
+          
+      }
+      .imgo{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        background-color:transparent;
+      }
+      .box2{
+        margin-left: -35%;
+        color: rgba(0, 0, 0, 0.589);
+        font-size: x-large;
+        font-style: italic;
+        margin-top: 8%;
+      }
+      .gmail{
+        text-decoration: none;
+      }
+      .gmail:hover{
+        text-decoration: underline;
+      }
+      .link{
+        text-decoration: none;
+      }
+      .dropdown button a{
+          text-decoration: none;
+          color: white;
+      }
+      table,th,td{
+        border:1.5px solid black;
+        
+      }
+      .content{
+        display: flex;
+        justify-content: center;
+        padding: 0px 180px 180px 180px;
+        
+        
+      }
+      .tables{
+       flex-grow: 1;
+       
+      }

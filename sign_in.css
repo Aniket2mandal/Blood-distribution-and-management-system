@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: url(1641271341040.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #39000033;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+body::-webkit-scrollbar{
+    width: 0;
+}
+#name{
+    color: rgb(241, 241, 241);
+    font-size:350%;
+    padding: 1%;
+    text-align: center;
+    margin-top: 0%;
+}
+#sign{
+    font-size: 200%;
+    color: rgb(255, 0, 0);
+}
+.log{
+    /* padding: 30px 510px 0px 510px; */
+    padding:100px;
+    width:fit-content;
+  margin-left: 25%;
+    
+}
+.log form{
+    padding: 50px;
+    background-color:rgba(10, 10, 10, 0.7);
+    /* box-sizing: border-box; */
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+ 
+}
+#username,#password{
+    font-size: 15px;
+    padding: 10px;
+    /* padding: 3% 44% 3% 2%; */
+    background-color: transparent;
+    border-radius: 5px;
+    border: 0.5px solid rgb(205, 205, 205);
+    color: white;
+    text-align: left;
+}
+#signin{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:700;
+    background-color: rgb(219, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+#signin:hover{
+    background-color:rgb(255, 255, 255);
+    color:rgb(119, 0, 0);
+    
+}
+#forget a{
+    text-decoration: none;
+    color: white;
+}
+#forget a:hover{
+    cursor: pointer;
+    color: rgb(204, 231, 255);
+}
+#signup a{
+    text-decoration: none;
+    color: rgb(202, 0, 0);
+    font-size: 150%;
+}
+#signup a:hover{
+    color: #ff0000;
+}
+#newuser:hover{
+    background-color:rgb(151, 1, 1);
+}
+#info{
+    font-size: 65%;
+    color: rgb(181, 181, 181);
+}
+footer{
+      display: grid;
+      grid-template-columns: 15% 60% 0%;
+      padding: 80px;
+      /* bottom: 20px; */
+      width: 89.5%;
+      /* position: absolute; */
+      background-color:rgba(10, 10, 10, 0.7);
+      /* height: 2vh; */
+      padding-top: 15px;
+      margin-top: 8%;
+      color: white;
+    }
+    .imgo{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      background-color:transparent;
+    }
+    .box2{
+      margin-left: -35%;
+      color: white;
+      font-size: x-large;
+      font-style: italic;
+      margin-top: 8%;
+    }
+    .gmail{
+      text-decoration: none;
+      color: whitesmoke;
+    }
+    .gmail:hover{
+      text-decoration: underline;
+    }
+    .link{
+      text-decoration: none;
+    }
